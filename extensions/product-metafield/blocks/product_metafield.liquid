@@ -1,0 +1,16 @@
+{%- comment -%} Show all metafield of product {%- endcomment -%}
+{%- if product and product.metafields.custom.user_input != blank -%}
+    <div class="app-user-input">
+        {{ product.metafields.custom.user_input.value | escape}} 
+    </div>
+{%- endif -%}
+
+{% schema %}
+{
+    "name": "Product user input",
+    "target": "section",
+    "templates": ["product"],
+    "settings": []
+}
+
+{% endschema %}

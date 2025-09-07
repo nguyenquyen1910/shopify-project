@@ -18,6 +18,7 @@ const billingConfig = {
 
 const shopify = shopifyApp({
   api: {
+    isEmbeddedApp: false,
     apiVersion: LATEST_API_VERSION,
     restResources,
     future: {

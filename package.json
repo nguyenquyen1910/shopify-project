@@ -18,7 +18,7 @@
     "apollo-server-express": "^3.13.0",
     "axios": "^1.11.0",
     "bcryptjs": "^3.0.2",
-    "dotenv": "^17.2.1",
+    "dotenv": "^17.2.2",
     "express-validator": "^7.2.1",
     "graphql": "^16.11.0",
     "graphql-tools": "^9.0.20",

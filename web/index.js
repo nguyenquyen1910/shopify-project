@@ -83,7 +83,10 @@ server.applyMiddleware({ app, path: "/graphql" });
 
 app.use("/api/*", shopify.validateAuthenticatedSession());
 
-app.use(express.json());
+app.use(express.json({ limit: "50mb" }));
+app.use(express.urlencoded({ limit: "50mb", extended: true }));
+
+app.use("/graphql", express.json({ limit: "50mb" }));
 
 app.get("/api/products/count", async (_req, res) => {
   const client = new shopify.api.clients.Graphql({

@@ -21,7 +21,7 @@
     "dotenv": "^17.2.1",
     "express-validator": "^7.2.1",
     "graphql": "^16.11.0",
-    "graphql-tools": "^9.0.20",
+    "graphql-tools": "^9.0.24",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.18.0",
     "zustand": "^5.0.8"

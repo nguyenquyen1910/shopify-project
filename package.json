@@ -23,7 +23,7 @@
     "graphql": "^16.11.0",
     "graphql-tools": "^9.0.20",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.18.0",
+    "mongoose": "^9.1.2",
     "zustand": "^5.0.8"
   }
 }

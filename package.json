@@ -24,6 +24,6 @@
     "graphql-tools": "^9.0.20",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.18.0",
-    "zustand": "^5.0.8"
+    "zustand": "^5.0.10"
   }
 }

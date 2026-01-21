@@ -12,7 +12,7 @@
     "deploy": "shopify app deploy"
   },
   "dependencies": {
-    "@apollo/client": "^4.0.4",
+    "@apollo/client": "^4.1.2",
     "@shopify/app": "^3.0.0",
     "@shopify/cli": "^3.84.1",
     "apollo-server-express": "^3.13.0",
